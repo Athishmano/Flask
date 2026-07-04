@@ -36,14 +36,14 @@ If you prefer not to use Docker, follow these steps:
 2. **Start Redis**:
    ```bash
    redis-server
-   \\\
+
    ```
 
 3. **Start the RQ Worker**:
    Open a new terminal session, activate your virtual environment, and start the worker:
    ```bash
    rq worker
-   \\\
+   
    ```
 
 4. **Run the Flask App**:
@@ -51,7 +51,7 @@ If you prefer not to use Docker, follow these steps:
    ```bash
    cd example_app
    python app.py
-   \\\
+   
    ```
 
 ## Testing
